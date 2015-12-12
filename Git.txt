@@ -57,9 +57,11 @@ Copy the file https link
 4- Add and Commit in one line (not recommended)
 	$ git commit -a -m "Modify File"  /this will not add new files, is just for modified ones
 
-5- What if we commit and then we regret it. We can undo last commit.
+5- What if we commit and then we regret it. We can UNDO last commit. There are different ways:
 	git reset --soft HEAD^ /this is move to commit before HEAD (last commit). Put changes into staging again
 	git commit --amend -m "New Message" /change the last commit message
+	git reset --hard HEAD^ /this undo last commit and ALL CHANGES
+	git reset --hard HEAD^^ /undo last 2 commits and all changes
 
-6- We can also change the last commit 
-	
+6- PUSH the local repository to a Remote repository (ON GITHUB. See section GIT.4)
+   $ git remote add origin [https link]
