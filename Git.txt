@@ -6,4 +6,53 @@ Main functions:
 - Merge files into one, when more than two or more people are working in the same file.
 - Time Capsule: Over time as you make change of the file, it keeps the history of the changes. 
 
-1- If you run into problems, you can run git help
+1- If you run into problems, you can run $ git help /this will give you a list of commands.
+
+2- Setting Up Git: 
+$ git config --global user.name "Tavo"  /who is the author
+$ git config --global user.email "tavoasenjo@gmail.com" /email of the author
+$ git config --global color.ui true  / It gives us pretty command line colors
+
+3- To create a repository we go to the directory (we want to upload) and we use $ git init
+This will initialize an empty LOCAL Git Repository (in the hidden .git file)
+
+4- Go to www.github.com, log in and create a new repository. DO NOT INCLUDE A README FILE.
+Copy the file https link
+
+5- On the terminal (your git repository directory) type $ git remote add origin [https link]
+
+6- To check the time line of our actions (committed files) we just type $ git log
+
+
+|--------------------WORKING WITH FILES----------------|
+|------------------------------------------------------|
+
+
+1- Add file to the staging area (area where the file is not committed yet). 
+	$ git add [name file]  /single file
+	$ git add -all /every file
+	$ git add "*.txt" /all .txt files
+	$ git add css/ /all the files inside css directory
+
+2- Commit changes. It is basically grab the files located in the stage area and commit them.
+	$git commit -m "commit message"
+
+3- Git Status command will help us to check what's changed since the last commit. It will tell us if we add a new file and if we have not committed yet.
+	$ git status
+
+|--------------------STAGING AND REMOTES----------------|
+|-------------------------------------------------------|
+
+1- Let's say I made a change to a file, but I do not remember what that change was. 
+   $ git diff /it will show me the difference of unstaged files. In red is what was removed; in green what was added
+   $ git diff --staged /it will show me the difference of stagged files (git add)
+
+2- How do we get things off the stage. Let's say I added something by mistake. 
+ 	HEAD refers to the last commit of our current branch or time line we are on.
+ 	$ git reset HEAD [name file]
+
+3- How do we reset the file to the last time it was changed (the last commit)
+
+
+
+
