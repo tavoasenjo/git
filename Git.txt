@@ -1,0 +1,9 @@
+|----------------------GIT---------------------------|
+|----------------------------------------------------|
+
+GIT is a Distributed Source Control Repository. Better know as VERSION CONTROL SYSTEM.
+Main functions: 
+- Merge files into one, when more than two or more people are working in the same file.
+- Time Capsule: Over time as you make change of the file, it keeps the history of the changes. 
+
+1- If you run into problems, you can run git help
