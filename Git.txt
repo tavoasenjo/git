@@ -56,4 +56,7 @@ Copy the file https link
 
 4- Add and Commit in one line (not recommended)
 	$ git commit -a -m "Modify File"  /this will not add new files, is just for modified ones
+
+5- What if we commit and then we regret it. We can reset the commit into staging.
+	git reset --soft HEAD /this is move to commit before HEAD (last commit)
 	
