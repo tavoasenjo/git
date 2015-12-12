@@ -64,4 +64,8 @@ Copy the file https link
 	git reset --hard HEAD^^ /undo last 2 commits and all changes
 
 6- PUSH the local repository to a Remote repository (ON GITHUB. See section GIT.4)
-   $ git remote add origin [https link]
+   a) $ git remote add origin [https link] /link local repository with remote repository
+   b) $ git push origin master /push the content we have in our local repository to the remote repository
+
+7- to see the REMOTE REPOSITORIES
+	$ remote -v
