@@ -51,8 +51,9 @@ Copy the file https link
  	HEAD refers to the last commit of our current branch or time line we are on.
  	$ git reset HEAD [name file]
 
-3- How do we reset the file to the last time it was changed (the last commit)
+3- How do we reset the file to the last time it was changed (the last commit), and delete modifications after that commit
+	$ git checkout -- [file name]
 
-
-
-
+4- Add and Commit in one line (not recommended)
+	$ git commit -a -m "Modify File"  /this will not add new files, is just for modified ones
+	
