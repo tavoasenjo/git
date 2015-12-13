@@ -40,7 +40,7 @@ Copy the file https link
 3- Git Status command will help us to check what's changed since the last commit. It will tell us if we add a new file and if we have not committed yet.
 	$ git status
 
-|--------------------STAGING AND REMOTES----------------|
+|-------------------STAGING AND REMOTES-----------------|
 |-------------------------------------------------------|
 
 1- Let's say I made a change to a file, but I do not remember what that change was. 
@@ -65,7 +65,13 @@ Copy the file https link
 
 6- PUSH the local repository to a Remote repository (ON GITHUB. See section GIT.4)
    a) $ git remote add origin [https link] /link local repository with remote repository
-   b) $ git push origin master /push the content we have in our local repository to the remote repository
+   b) $ git push -u origin master /push the content we have in our local repository to the remote repository
 
 7- to see the REMOTE REPOSITORIES
 	$ remote -v
+
+8- TO PULL changes down from the remote
+	$ git pull
+
+|------------------CLONING & BRANCHING------------------|
+|-------------------------------------------------------|
