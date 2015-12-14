@@ -76,4 +76,14 @@ Copy the file https link
 |------------------CLONING & BRANCHING------------------|
 |-------------------------------------------------------|
 
+1- To Clone a repository from Github copy the link of the repository on Github and then:
+	$ git clone [link Repository] /this will add a 'origin' remote, pointing it to the clone URL
+
+2- Create a BRANCH
+	$ git branch [name branch] / it creates a new branch, but note that we are still in master branch
+	$ git branch / checks in which branch we are
+
+3- MOVE to another Branch
+	$ git checkout [new branch] / we switch branches. Now we can do whatever we want in the new branch without affecting the master
+	
 
