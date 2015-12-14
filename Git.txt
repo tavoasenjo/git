@@ -73,7 +73,7 @@ Copy the file https link
 8- TO PULL changes down from the remote
 	$ git pull
 
-|------------------CLONING & BRANCHING------------------|
+|----------------CLONING & BRANCHING (LOCAL)------------|
 |-------------------------------------------------------|
 
 1- To Clone a repository from Github copy the link of the repository on Github and then:
@@ -98,4 +98,16 @@ Copy the file https link
 
 |------------------COLABORATION BASICS------------------|
 |-------------------------------------------------------|
+
+1- A and B are working in their files in their local rep. A add, commit and push the changes. B add, commit and push, but it is rejected. B HAS TO PULL FIRST
+	$ git pull /fetch (or Sync) our local repository with the remote one.
+
+2- A and B are working in the SAME FILE. when someone try to Merge is not going to be successful. MERGE CONFLICT
+	If we go to the file, we will see the conflict. HEAD is the local version (my file); and then the other person's version.
+	We modify the file and then $ git commit -a 
+	$ git push
+
+|--------------------REMOTE BRANCHES--------------------|
+|-------------------------------------------------------|
+
 
