@@ -110,4 +110,10 @@ Copy the file https link
 |--------------------REMOTE BRANCHES--------------------|
 |-------------------------------------------------------|
 
+1- WHY create a REMOTE BRANCH? -> so other people can work on it (as a sub repository).
+
+2- It is also a good practice to BACK THE BRUNCH UP, so we can do it uploading it to github.
+
+3- To UPLOAD the branch to GITHUB
+	$ git push origin [name of branch]
 
