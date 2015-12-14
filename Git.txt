@@ -65,7 +65,7 @@ Copy the file https link
 
 6- PUSH the local repository to a Remote repository (ON GITHUB. See section GIT.4)
    a) $ git remote add origin [https link] /link local repository with remote repository
-   b) $ git push -u origin master /push the content we have in our local repository to the remote repository
+   b) $ git push -u origin master /push the content we have in our local repository to the remote repository. with -u, after that everytime we want to push something it will be just $ git push
 
 7- to see the REMOTE REPOSITORIES
 	$ remote -v
