@@ -85,5 +85,7 @@ Copy the file https link
 
 3- MOVE to another Branch
 	$ git checkout [new branch] / we switch branches. Now we can do whatever we want in the new branch without affecting the master
-	
+
+4- MERGE new branch with Master (for that, make sure you are in master)
+	$ git merge [new branch]	
 
