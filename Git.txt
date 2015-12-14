@@ -117,3 +117,14 @@ Copy the file https link
 3- To UPLOAD the branch to GITHUB
 	$ git push origin [name of branch]
 
+4- Next time the other person makes PULL, it will tell him that there is a new branch. To see list of ALL REMOTE BRANCHES
+	$ git branch -r
+	$ git checkout [name branch] / to start working on that branch
+	$ git remote show origin / it will show us all the remote branches; local branches and the one they've merged with; and local refs when we do PUSH
+
+5- TO DELELE A REMOTE BRANCH
+	$ git push origin :[branch name]
+
+
+
+
