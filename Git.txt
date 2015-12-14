@@ -91,5 +91,11 @@ Copy the file https link
 	$ git merge [new branch]
 
 5- DELETE branch
-	$ git branch -d [name branch]	
+	$ git branch -d [name branch]
+
+6- MERGE two branches with changes made in both branches -> this will take you to VIM. to get out of there type :wq
+   Git makes a RECURSIVE MERGE: a commit created to merge the two branches. No files were added, though. 	
+
+|------------------COLABORATION BASICS------------------|
+|-------------------------------------------------------|
 
