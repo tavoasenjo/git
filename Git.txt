@@ -82,10 +82,14 @@ Copy the file https link
 2- Create a BRANCH
 	$ git branch [name branch] / it creates a new branch, but note that we are still in master branch
 	$ git branch / checks in which branch we are
+	$ git checkout -b [name branch] / creates and checks out branch
 
 3- MOVE to another Branch
 	$ git checkout [new branch] / we switch branches. Now we can do whatever we want in the new branch without affecting the master
 
 4- MERGE new branch with Master (for that, make sure you are in master)
-	$ git merge [new branch]	
+	$ git merge [new branch]
+
+5- DELETE branch
+	$ git branch -d [name branch]	
 
