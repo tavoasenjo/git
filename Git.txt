@@ -107,12 +107,12 @@ Copy the file https link
 	We modify the file and then $ git commit -a 
 	$ git push
 
-|--------------------REMOTE BRANCHES--------------------|
-|-------------------------------------------------------|
+|--------------------REMOTE BRANCHES & TAGS--------------------|
+|--------------------------------------------------------------|
 
 1- WHY create a REMOTE BRANCH? -> so other people can work on it (as a sub repository).
 
-2- It is also a good practice to BACK THE BRUNCH UP, so we can do it uploading it to github.
+2- It is also a good practice to BACK THE BRUNCH UP, so we can do it uploading it to Github.
 
 3- To UPLOAD the branch to GITHUB
 	$ git push origin [name of branch]
@@ -123,8 +123,28 @@ Copy the file https link
 	$ git remote show origin / it will show us all the remote branches; local branches and the one they've merged with; and local refs when we do PUSH
 
 5- TO DELELE A REMOTE BRANCH
-	$ git push origin :[branch name]
+	$ git push origin :[branch name] /this delete the branch on Github, not locally 
+	If there are changes not committed, we cannot use $ git branch -d [branch name] /instead we use:
+	$ git branch -D [branch name]
 
+6- Once you DELETED the remote branch, clean up local references
+	$ git remote prune origin
+
+7- CREATE A TAG
+	$ git tag -a [name tag] -m "comments"
+
+8- Check TAGS
+	$git tag
+
+9- PUSH tag to origin
+	$ git push --tags
+
+10- Change to Other Tag Created
+	$git tag //check the tags
+	$git checkout [nameOftag]
+
+|--------------------REBASE BELONG TO US-----------------------|
+|--------------------------------------------------------------|
 
 
 
