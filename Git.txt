@@ -145,6 +145,15 @@ Copy the file https link
 
 |--------------------REBASE BELONG TO US-----------------------|
 |--------------------------------------------------------------|
+ -> Merge Commit are not so good since we have them for local branches, remote branches, and it may seem that is polluting our history. Merge Commits feel useless!
+ -> There is an alternative to doing the same: fetch and rebase
 
+ - When we do git fetch we are pulling all the info, but we are not merging it. 
+ - git rebase does 3 things:
+ 	1- Move all Changes to masrer which are not in origin.master to a temporary area.
+ 	2- Run all origin/master commits
+ 	3- Run all origin/master commits in the temporary area on top of the master, one at a time
+
+ 	All in all, there is not merge commit, just one after the next! 
 
 
