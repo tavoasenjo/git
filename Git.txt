@@ -21,7 +21,7 @@ Copy the file https link
 
 5- On the terminal (your git repository directory) type $ git remote add origin [https link]
 
-6- To check the time line of our actions (committed files) we just type $ git log
+6- Checke TIMELINE OF COMMITED FILES we just type $ git log
 
 
 |--------------------WORKING WITH FILES----------------|
@@ -68,7 +68,7 @@ Copy the file https link
    b) $ git push -u origin master /push the content we have in our local repository to the remote repository. with -u, after that everytime we want to push something it will be just $ git push
 
 7- to see the REMOTE REPOSITORIES
-	$ remote -v
+	$ git remote -v
 
 8- TO PULL changes down from the remote
 	$ git pull
