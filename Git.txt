@@ -143,6 +143,21 @@ Copy the file https link
 	$git tag //check the tags
 	$git checkout [nameOftag]
 
+
+|--------------------------GIT FLOW----------------------------|
+|--------------------------------------------------------------|
+- GitFlow is a branching model. (you have to install git-flow. just one time)
+- It makes parallel development very easy, by isolating new development from finished work.
+- New development (fixing a bug in the master, for instance) is done in feature branches, and is only merged back into main body of code whan the developer is happy taht the code is ready for realise.
+
+1- In a specific branch type:
+	$ git flow feature start feature_name
+2- After making the changes or building the feature
+	$ git flow feature finish feature_name
+    // the branch will merge automatically with its parent branch
+
+
+
 |--------------------REBASE BELONG TO US-----------------------|
 |--------------------------------------------------------------|
  -> Merge Commit are not so good since we have them for local branches, remote branches, and it may seem that is polluting our history. Merge Commits feel useless!
