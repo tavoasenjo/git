@@ -156,6 +156,13 @@ Copy the file https link
 	$ git flow feature finish feature_name
     // the branch will merge automatically with its parent branch
 
+- HOTFIX - Let's say you need to make a quick change of the code version on MASTER
+	1- $ git flow hotfix start [give_a_name]
+	2- After making the changes and fixing the bug
+		$ git flow hotfix finish [give_a_name]
+
+
+
 
 
 |--------------------REBASE BELONG TO US-----------------------|
