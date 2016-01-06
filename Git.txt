@@ -155,6 +155,3 @@ Copy the file https link
  	3- Run all origin/master commits in the temporary area on top of the master, one at a time
 
  	All in all, there is not merge commit, just one after the next! 
-
-
-//Testing TavoForge branch
