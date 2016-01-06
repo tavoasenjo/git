@@ -162,9 +162,6 @@ Copy the file https link
 		$ git flow hotfix finish [give_a_name]
 
 
-
-
-
 |--------------------REBASE BELONG TO US-----------------------|
 |--------------------------------------------------------------|
  -> Merge Commit are not so good since we have them for local branches, remote branches, and it may seem that is polluting our history. Merge Commits feel useless!
