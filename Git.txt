@@ -21,7 +21,7 @@ Copy the file https link
 
 5- On the terminal (your git repository directory) type $ git remote add origin [https link]
 
-6- Checke TIMELINE OF COMMITED FILES we just type $ git log
+6- To Check TIMELINE OF COMMITED FILES we just type $ git log
 
 
 |--------------------WORKING WITH FILES----------------|
