@@ -169,3 +169,8 @@ Copy the file https link
  	Move your master commits after the commits from origin/master
  	- $ git rebase //notice if your co-worker pushed again new commits before you, you have to fetch and rebase again
 
+
+
+|-------------------------SHORT HISTORY------------------------|
+|--------------------------------------------------------------|
+
