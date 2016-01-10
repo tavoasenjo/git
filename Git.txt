@@ -155,3 +155,17 @@ Copy the file https link
  	3- Run all origin/master commits in the temporary area on top of the master, one at a time
 
  	All in all, there is not merge commit, just one after the next! 
+
+ 	Ex:
+ 	We have a branch called kennel and we want to rebase it to master.
+ 	- $ git checkout kennel
+ 	- $ git rebase master  //With the rebase complete, kennel should merge with master cleanly.
+ 	- $ git checkout master
+ 	- $ git merge kennel
+
+ 	Your co-worker has pushed changes to the master branch on the origin repo. Retrieve it without mergin it so we can replay our work on top of it.
+ 	- $ git fetch // with this our local repo knows of the latest changes or origin master.
+
+ 	Move your master commits after the commits from origin/master
+ 	- $ git rebase //notice if your co-worker pushed again new commits before you, you have to fetch and rebase again
+
