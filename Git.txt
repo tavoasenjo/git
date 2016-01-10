@@ -150,11 +150,8 @@ Copy the file https link
 
  - When we do git fetch we are pulling all the info, but we are not merging it. 
  - git rebase does 3 things:
- 	1- Move all Changes to masrer which are not in origin.master to a temporary area.
+ 	1- Move all Changes to master which are not in origin.master to a temporary area.
  	2- Run all origin/master commits
  	3- Run all origin/master commits in the temporary area on top of the master, one at a time
 
  	All in all, there is not merge commit, just one after the next! 
-
-
-//Testing TavoForge branch
