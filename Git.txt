@@ -23,6 +23,8 @@ Copy the file https link
 
 6- To Check TIMELINE OF COMMITED FILES we just type $ git log
 
+7- Finally, in terminal type: git push -u origin master (afterwards, we will just type git push whenever we want to upload our commit changes to master)
+
 
 |--------------------WORKING WITH FILES----------------|
 |------------------------------------------------------|
@@ -78,7 +80,7 @@ Copy the file https link
 
 1- To Clone a repository from Github copy the link of the repository on Github and then:
 	$ git clone [link Repository] /this will add a 'origin' remote, pointing it to the clone URL
-
+out 
 2- Create a BRANCH
 	$ git branch [name branch] / it creates a new branch, but note that we are still in master branch
 	$ git branch / checks in which branch we are
